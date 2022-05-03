@@ -1,0 +1,339 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 1,
+    "pending": 0,
+    "failures": 5,
+    "start": "2022-04-28T12:26:48.386Z",
+    "end": "2022-04-28T12:31:23.261Z",
+    "duration": 224890,
+    "testsRegistered": 6,
+    "passPercent": 16.666666666666668,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2c48a6d4-86e7-4787-9da1-5bef5c029f7a",
+      "title": "",
+      "fullFile": "cypress/integration/automation-test-store/add-multiple-items-to-basket.js",
+      "file": "cypress/integration/automation-test-store/add-multiple-items-to-basket.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6d3db567-a946-4353-a134-6768d7ce66a4",
+          "title": "Add multiple items to basket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add specific items to basket",
+              "fullTitle": "Add multiple items to basket Add specific items to basket",
+              "timedOut": null,
+              "duration": 30516,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// cy.addProduct_To_Cart(data.productName[0]);\n// cy.addProduct_To_Cart(data.productName[1]);\n// cy.addProduct_To_Cart(data.productName[2]); OR\nautoStore_haircare_PO.addHairCareProductsToBasket();",
+              "err": {
+                "message": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Add multiple items to basket`",
+                "estack": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Add multiple items to basket`\n    at timedOutWaitingForPageLoad (https://automationteststore.com/__cypress/runner/cypress_runner.js:157265:72)\n    at https://automationteststore.com/__cypress/runner/cypress_runner.js:158315:16\n    at tryCatcher (https://automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://automationteststore.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://automationteststore.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://automationteststore.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://automationteststore.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://automationteststore.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://automationteststore.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://automationteststore.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://automationteststore.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://automationteststore.com/__cypress/runner/cypress_runner.js:7782:14)\nFrom Your Spec Code:\n    at AutoStore_Homepage_PO.accessHomepage (https://automationteststore.com/__cypress/tests?p=cypress/integration/automation-test-store/add-multiple-items-to-basket.js:199:8)\n    at Context.eval (https://automationteststore.com/__cypress/tests?p=cypress/integration/automation-test-store/add-multiple-items-to-basket.js:137:27)",
+                "diff": null
+              },
+              "uuid": "ad730adf-56a6-464e-8b98-2a1ec8877608",
+              "parentUUID": "6d3db567-a946-4353-a134-6768d7ce66a4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "ad730adf-56a6-464e-8b98-2a1ec8877608"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 30516,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "fbcf8481-88e8-4a49-92e4-e04f4b4b30ed",
+      "title": "",
+      "fullFile": "cypress/integration/automation-test-store/alias-invoke.js",
+      "file": "cypress/integration/automation-test-store/alias-invoke.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "61515c4f-a8bd-4ebb-b43a-79f5efceb91b",
+          "title": "Alias and invoke",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Calculate total of normal and sale products",
+              "fullTitle": "Alias and invoke Calculate total of normal and sale products",
+              "timedOut": null,
+              "duration": 23816,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://automationteststore.com/\");\ncy.get(\".thumbnail\").as(\"productThumbnails\"); // cy.get(\"@productThumbnails\")\n//   .find(\".oneprice\")\n//   .each(($el, index, $list) => {\n//     cy.log($el.text());\n//   });\ncy.get(\".thumbnail\").find(\".oneprice\").invoke(\"text\").as(\"itemPrice\");\ncy.get(\".thumbnail\").find(\".pricenew\").invoke(\"text\").as(\"saleItemPrice\");\nlet itemsTotal = 0;\ncy.get(\"@itemPrice\").then(linkText => {\n  const itemPrice = linkText.split(\"$\");\n  let sum = 0;\n  for (let i = 0; i < itemPrice.length; i++) {\n    cy.log(itemPrice[i]);\n    sum += Number(itemPrice[i]);\n  }\n  itemsTotal += sum;\n  cy.log(`Non sale price items total: ${sum}`);\n});\ncy.get(\"@saleItemPrice\").then(linkText => {\n  const saleItemPrice = linkText.split(\"$\");\n  let sum = 0;\n  for (let i = 0; i < saleItemPrice.length; i++) {\n    cy.log(saleItemPrice[i]);\n    sum += Number(saleItemPrice[i]);\n  }\n  itemsTotal += sum;\n  cy.log(`Sale price items total: ${sum}`);\n}).then(() => {\n  cy.log(`The total price of all products ${itemsTotal}`);\n  expect(itemsTotal).to.equal(648.5);\n});",
+              "err": {},
+              "uuid": "7e2b3496-d53f-4040-89e4-5783dd5be184",
+              "parentUUID": "61515c4f-a8bd-4ebb-b43a-79f5efceb91b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7e2b3496-d53f-4040-89e4-5783dd5be184"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 23816,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "055b4b69-7d07-44bb-86e9-995965db568f",
+      "title": "",
+      "fullFile": "cypress/integration/automation-test-store/contact-us.js",
+      "file": "cypress/integration/automation-test-store/contact-us.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bb69c020-1cdb-4532-9a78-b5ab7d25cc39",
+          "title": "Test Contact Us form via Automation Test Store",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should be able to submit a successful submission via contact us form",
+              "fullTitle": "Test Contact Us form via Automation Test Store Should be able to submit a successful submission via contact us form",
+              "timedOut": null,
+              "duration": 30345,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.automationteststore.com/\");\ncy.get(\"a[href$='contact']\").contains(\"Contact Us\").click().then(function (linkText) {\n  cy.log(\"Clicked Link Footer text: \" + linkText.text());\n}); // cy.xpath(\"//a[contains(@href, 'contact')]\").click();\ncy.get(\"@user\").then(user => {\n  cy.get(\"#ContactUsFrm_first_name\").type(user.first_name);\n  cy.get(\"#ContactUsFrm_email\").type(user.email);\n});\ncy.get(\"#ContactUsFrm_email\").should(\"have.attr\", \"name\", \"email\");\ncy.get(\"[id='ContactUsFrm_enquiry']\").type(\"Test enquiry\");\ncy.get(\"button[title='Submit']\").click();\ncy.xpath(\"//p[contains(text(), 'Your enquiry has been successfully sent to the store owner!')]\").should(\"have.text\", \"Your enquiry has been successfully sent to the store owner!\");\ncy.log(\"Test has completed!\");",
+              "err": {
+                "message": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+                "estack": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:157265:72)\n    at https://www.automationteststore.com/__cypress/runner/cypress_runner.js:158315:16\n    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://www.automationteststore.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7782:14)\nFrom Your Spec Code:\n    at Context.eval (https://www.automationteststore.com/__cypress/tests?p=cypress/integration/automation-test-store/contact-us.js:106:8)",
+                "diff": null
+              },
+              "uuid": "5413e632-57c5-4b18-9461-45a45c5d3f30",
+              "parentUUID": "bb69c020-1cdb-4532-9a78-b5ab7d25cc39",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "5413e632-57c5-4b18-9461-45a45c5d3f30"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 30345,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "d6646486-6ac1-460d-b36d-7de9a9439fd3",
+      "title": "",
+      "fullFile": "cypress/integration/automation-test-store/inspect-item.js",
+      "file": "cypress/integration/automation-test-store/inspect-item.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3366b120-6cbf-43fb-b509-958a69281f9f",
+          "title": "Inspect Automation Test Store items using chain of commands",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Click on the first item using item header",
+              "fullTitle": "Inspect Automation Test Store items using chain of commands Click on the first item using item header",
+              "timedOut": null,
+              "duration": 57969,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.automationteststore.com/\");\ncy.get(\"#block_frame_featured_1769 > .thumbnails > :nth-child(1) > .fixed_wrapper > .fixed > .prdocutname\").click();",
+              "err": {
+                "message": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+                "estack": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:157265:72)\n    at https://www.automationteststore.com/__cypress/runner/cypress_runner.js:157585:16\n    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://www.automationteststore.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7782:14)",
+                "diff": null
+              },
+              "uuid": "98337ecd-6000-4d05-818e-61ed49639fe0",
+              "parentUUID": "3366b120-6cbf-43fb-b509-958a69281f9f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click on the first item using item text",
+              "fullTitle": "Inspect Automation Test Store items using chain of commands Click on the first item using item text",
+              "timedOut": null,
+              "duration": 51896,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.automationteststore.com/\");\ncy.get(\".prdocutname\").contains(\"Skinsheen Bronzer Stick\").click().then(function (itemHeaderText) {\n  console.log(\"Selected the following item: \" + itemHeaderText.text());\n}); // cy.get(\"a[title='Skinsheen Bronzer Stick']\").click();",
+              "err": {
+                "message": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+                "estack": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:157265:72)\n    at https://www.automationteststore.com/__cypress/runner/cypress_runner.js:157585:16\n    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://www.automationteststore.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7782:14)\nFrom Your Spec Code:\n    at Context.eval (https://www.automationteststore.com/__cypress/tests?p=cypress/integration/automation-test-store/inspect-item.js:107:72)",
+                "diff": null
+              },
+              "uuid": "2cd03e36-d11c-4d66-81d0-22fb56b9b3be",
+              "parentUUID": "3366b120-6cbf-43fb-b509-958a69281f9f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click on the first item using index",
+              "fullTitle": "Inspect Automation Test Store items using chain of commands Click on the first item using index",
+              "timedOut": null,
+              "duration": 30348,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.automationteststore.com/\");\ncy.get(\".fixed_wrapper\").find(\".prdocutname\").eq(0).click();",
+              "err": {
+                "message": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+                "estack": "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:157265:72)\n    at https://www.automationteststore.com/__cypress/runner/cypress_runner.js:158315:16\n    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at https://www.automationteststore.com/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:7782:14)\nFrom Your Spec Code:\n    at Context.eval (https://www.automationteststore.com/__cypress/tests?p=cypress/integration/automation-test-store/inspect-item.js:112:8)",
+                "diff": null
+              },
+              "uuid": "6ea0039f-b880-44d3-b351-4b01e7c956ad",
+              "parentUUID": "3366b120-6cbf-43fb-b509-958a69281f9f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "98337ecd-6000-4d05-818e-61ed49639fe0",
+            "2cd03e36-d11c-4d66-81d0-22fb56b9b3be",
+            "6ea0039f-b880-44d3-b351-4b01e7c956ad"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 140213,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
