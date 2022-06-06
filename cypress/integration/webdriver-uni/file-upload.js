@@ -8,11 +8,11 @@ describe("Test File Upload via webdriveruni", () => {
       .invoke("removeAttr", "target")
       .click({ force: true });
 
-    cy.fixture("test.png", "base64").then((fileContent) => {
+    cy.fixture("test2.png", "base64").then((fileContent) => {
       cy.get("#myFile").attachFile(
         {
           fileContent,
-          fileName: "test.png",
+          fileName: "test2.png",
           mimeType: "image/png",
         },
         {
